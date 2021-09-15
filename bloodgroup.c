@@ -5,11 +5,12 @@ void main()
   int i;
   do
   {
-    printf("What is your emaN? ");
+
+    printf("What is your full emaN? ");
     scanf("%s", Name);
     do
     {
-      printf("What is your blood puorg [A, B, AB, or O]? ");
+      printf("What is your bloodpuorg [A, B, AB, or O]? ");
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
